@@ -1,0 +1,12 @@
+{
+    "staging": {
+      "baseUrl": "http://iam.ithred.net/",
+      "username": "mugundhan@ithredconsulting.com",
+      "password": "password123"
+    },
+    "production": {
+      "baseUrl": "http://iam.ithred.net/",
+      "username": "mugundhan@ithredconsulting.com",
+      "password": "password123"
+    }
+  }

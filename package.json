@@ -1,0 +1,21 @@
+{
+  "name": "sap_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "allure-playwright": "^3.0.7"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

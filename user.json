@@ -1,0 +1,93 @@
+{
+  "cookies": [
+    {
+      "name": "clientId",
+      "value": "cGrCgC3Meiz2PlHe",
+      "domain": "iam.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user",
+      "value": "{%22signIn%22:%222025-01-09T08:51:11.231Z%22%2C%22refreshIn%22:%222025-01-09T08:51:11.231Z%22%2C%22info%22:%22U2FsdGVkX19bAvZ/iAHroWvmI1qABhJeO6IYolwDM3G8kMUgHeqbTbXBcfvnLAbAiZ80053aJxxO5S56fqfjgziA1tazt1rFZVoAHadVALXPJ2ckfA2OiyDdthA3AVrRwsE4GcUk88JYGAGBHtSnl4Cm3KF1GG3OWZIeMsg88BaDvetHtd0Tog0y4jN2ozEqNn9wtQL3/APdhiOI/MIBEsINtSKMXo+kpXUbpHM4C7u52N/aQlurD+PatVeig5GGLrekcNPe1N+sWZ4xx9YA+o7J/NM3hJ7MQ+FL+a6lHIdDZxmHVOZcY0b5Q46xdUYAkvTNkDq7pcapV6CVXwYWASvZ1gIEXb0Lcn+pomOdR1rG4R1rUZHMU/hTwf/TN5HZ3HslARbk/zFEBP5gnycaRR+oJMA+an5xvK+0bLk5fNVXXSyGh6gcTZI8NfLBSdaIDbUAa1BPIoNarfIJL1Y2NtRxBXRkb9lInXiUxo3xfA/8YP/IGlhtpwzm6JN4OUS6QP9ErOfRYwULL2P24ZyPMwwUNonq1jDuH2A/0S03ciMdjvSuiE1sF5eM1aPWoOEqabChMAFuYxMKcTawn+ZLF261jpcle63GP9+aa4utP5WdDh4y8jQl2V3EW6VpuU7kZQbJbhJW8gyDnY1wqYuIVr2Q5S72slYcFGwZgUF6/Sh8hC2WX8wB0x/9qSigfhqLCJ9ozGWbMck/xz/ic1EYzpezvQT8OulyxbIlY8sG512lJGoDrtGdU8vUOqUNyoYqIWpahwnedpeCVlXGEP4RjHMu1/9roUR8hfPOrxUVuzO7F+irJrcrOBzgq1Z58Wfbh6iVm7Ru1YbPPFX7zDL/Rft/NS915Qg7smcQmwWi+iGO8HhxQjEU5iiMNHxDza51LI8uUMrNB1X5C4bHLSe1ntK2PDRI4S0DVApG2rW8/mhDegc9WsJtD1huycVGalG2SPqjWACPWAsWDL3vBr3jbF3BpxdLqGhQHSY520awwPQh5pvGZkCntJPe+zX8Ajvz2tePpcI5g5qL8TGS7rh8B0hCTYMVGqKGMgchLAdonmuAha1yDmVHnIy4gInkS0/vm3zs8JW7JBJ3jZIaadvN4rMCC5CKVDeOB6yOLbrLDFVjqpQbKwdEw3lszMZfWy9wJwsLHIry094sN37cWeqQno5L/uGiZvHoNv1ywUQeK6gDxYaAeTTU2K0L1NufiGYYLz95+hqAzX1bvQBaRMiMoutwQDq0NOKwHOfPQLwFbGgTfxjHQwE3g76qJRkYOcdAHCo7lF2hIKYsjG25bvUrpOJfAMwGWo75fsfGe+EcH9aNmVQ/65A+1Fm5O6IkN+Kg/WjxxE7wzp5wPHsngVunIFnaDu3KRo3teL01AZdtHBxf4zVX16FyghUO8TKlCoyNZ1BNGDWCvRWcxhFMrtlPZW1rRO2HwVCZZFTx3yFG+xS39Gsb14/pZEUHuoN/dcALk9FQ5xyIxyO7NrgO+cZRKg==%22%2C%22expires%22:1736477351231}",
+      "domain": "iam.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "clientId",
+      "value": "cGrCgC3Meiz2PlHe",
+      "domain": "app.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user",
+      "value": "{%22signIn%22:%222025-01-09T08:51:11.680Z%22%2C%22refreshIn%22:%222025-01-09T08:51:11.680Z%22%2C%22info%22:%22U2FsdGVkX184uZzavEz5hIzBhiHLJLIrHNH7eeqn+8ISyzCGyi4ORT0aiK2EOb/xwIQvPZ9sXSq0Q1z6HiPu4GRp2a6hQpmJqQzgZNKUTV8hNVWpHwnHG7fkTLJ7cXGdm7JVlp81EZWECDXpx/PTWQBpk2kyALJPRx+l2w/JhrsAQRjD/qAbLPT8D61tWUOS6rjKR1AX/POetyOzHUqTGwj+UZMJmo7dL31cbJoy9IDffYBNmbSnnwxHaRI1SlIB6fVuF6dDvgkCjYP8B1+2cjzy+QOxgBOc0x8UJKOszBBf42uOwwxsfMoVw/LeT00AgVW+viMIUSY2MUbo8Dod6DCK8v2JhRTCOJ6Hu4Cxsw6SvZS9VUvxfQvXw575aWlJEGvn5UczruMTBeO048C8uGNyIALEhSIDHJtpoDlpi4P/LggodqCCQ5MOxcFdrK52h34OUdxOd/VBA5/XC8Bnb3bB2sFOmO8D4VCcYV6XaRw9O4MMvGZDsIp1IcpcVSWX9feYgCYTKOK08+d6L01HV21vdhqna5SuJe8GL4X12Zc92nyfCuFbUBOqfePKQL64cIyd6jyT3hrKMe4cMmW8aVgn9q1ecmjorTEGCB1CkW8Fqe+NeIpFECY7f13arQQ4Y+FgiKTtaHe/fo0Qpply1RBnXgS0Wvz4uQLu2NEOtwtzesa7yYUGI8s0OS0gcsQOWhV490k4cwJUdj8VcNbkUKKFd8A9mBDy9MxxXu129xd/1jyfyTVhk4Xc5u+Ui2hwLDTl5HXkqJTjNWMYkzeGnFKi8y0rm9Vm2yrMvGQsCR6cQktDqB74xjWrsDTaxgblWmbU/Yjr8goArjgTWt6FB9zChRlezoCat8lLe7GQdgC4G43IGSitLyyDbyp/1Zips7HRW1+VjtBBxRIp+KH/V/InGaVK58q4OBK8op53VOaF72Eep/WP9V3DYeWpwvek1zGc3F7WJpndXTCh92ZH/mCYnXtCIwvvxTN1TjNql1uSMug7GVIQb7/fFRXMgEI2Tm00dU2ZP8b4jIZ0h3PpU0KedZDGiL7DkA/4BGRgBlFNncpTS69Mhb+uw9CsmgzT5DtshJv3aFT7DK3mGVEVh7kdCadlh3j/pfodlbyKSCqBiqWxuClH39ZDAvLe7aBm4O96FjVzN0NnP4+i2ViOICHIaSM6gKg+7Du9Mgre6VOxEd9qKlgyAsPEHdOOFYDi/Cjrj/sLiMTMjzcGuTiZ4NQH917+6biE+PXn4rkcXdbIsKmMuma0LAPeapKuEyjywysD3pQJb0z2hZb4BnLo6K39OwB75bVKV9deC+KRbEHTgw9ugQo6pvJV7i0W65toEPpXMlmE0julk/bEgA5gn4XxEnJou8fIPCSALZ3B0+b25swBEx5rFCvtEhvnXmHdEbyroRH22WlREXgylXrebg==%22%2C%22expires%22:1736477351680}",
+      "domain": "app.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "clientId",
+      "value": "cGrCgC3Meiz2PlHe",
+      "domain": "sap.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "user",
+      "value": "{%22signIn%22:%222025-01-09T08:51:13.597Z%22%2C%22refreshIn%22:%222025-01-09T08:51:13.597Z%22%2C%22info%22:%22U2FsdGVkX18fKI5PdWBYtd9Aa3JKqDJTdhkVp7agCLcK5gwaxKmDwP4tR9qGVQe+2PrMn4rNYVHEADYpaAXhDka+jpQFdhXRVy1MEoZ+XUxzQA9t7R6RBzLOy0bsG/aR1qy1jtFGkfhWhKWE7RBrPQp4xcVazI7t46eSgKjVdscdNss/OdL9fM7V6PZ0Lxeep2/TiN0jNCtASqaSbJwNpRceIVJ7PLt74hUS7AbQXzfl8bHnzVgwpeIOAqeMM/8Hl5h81AsDVkIkmw9d3pDgY817pCfL2FnUOTY5m/+NAmah7HZ60fPi/rGr3n50FgOIuL+GvKsKFmwU6DoYfybLxP0zf2FJJzzRlKXpcBTTOVDQPf31LmsRHO6EBmTOcHcD6fbCX8wFvs8nR3WHnSEXQOZ+CLWEOHfWB9AiVz7e27Qv9+IW93lz3nJ7gZK4OhkYiqKjHUZxx1nw2lFSncCBuLHv8sTpmF9Z2TKRQVOKvCo6Ev+GpHfOdiVRcjCqAQ3DmT4tUFan8K4KLuU/i1mtrn2tkus5AE3VgXyCEiIhGB6BkSvzUsK7wFha200TwagQ57U6ptsqOL/OneMhQHDxLe9PyEQUSzD42PDPs+rMImWrpgT+Wjao6OLNniia8b+cdzSO+iUEkA5qZ6IGRI8ABeW+HLoTpkPiXo4Obr4ixcxg6V8lp6dMj6ihutRznxbOIOb7/4ymBLhupd3nbtC9wfs5rWwg6uM8X1qox7HhygAHom56+UR6CSZOChQT/QOLZDKDy2fcOUS3wDQ3xpBp2w9IbWlEJO17f+aZf6sBl9eCZUI1I9F4l71zkV6o1CIsBTtB6S8z87jXuOy0dUe+gGICNWifwvEPuj4s6UK1d0Ig8NAKTS9rnTTMZ+/sj9fSjZr4INBFHzwi05SJnjZaZVT0kFtSEYn/a0ec1triuTtSUXYBfLF2bTAu67f+I13CoNHolB1jVlBliz2V2xUlRfaftHvgSNEgy0T9+JOft6kLc/YG1FveRiewIVg7wjXbk4iV29zrdTmyzG/m/8zt+TxMoQCwG3Xd3DtrYQ7nMsXl7fbh0c9zGYOjQap81SlcbvZC+Xf8LR5zLyZUG04Wtxhlo3n7hG5PJblHUYkIEQt4wIGUnk54nGqfxH8JokUs7xng5MFVv+SsyNhUkH+6P2w6MrJ3oQxfO46/Dp+sJHgFeUr1rEZri1UPE8ovNOyZRrkkv5RK+g5MIoTkyIPHnIz5WHwQfcc7zzzxxZD6iKtcyuXVuzlh8Ue6zOJ40hynBd1spQQm+tJb0kx40n+iRIv/5A3WdtDdbVNVXzbSvdoMIh4KhuaxtWz+H+fM3azLURbZdwGs6BJn83xg6HUfUV4S3LSFsZuxG8RIkUpG1Hpq0ofTTFsISlDvC+C7lwOsmsoVmIaNu5KUhYiZZlMxkg==%22%2C%22expires%22:1736477353597}",
+      "domain": "sap.ithred.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://sap.ithred.net",
+      "localStorage": [
+        {
+          "name": "applicationConf",
+          "value": "{\"conf\":\"http://gateway01.ithred.net/api/\",\"env\":\"prod\",\"platform\":\"app\"}"
+        }
+      ]
+    },
+    {
+      "origin": "http://iam.ithred.net",
+      "localStorage": [
+        {
+          "name": "applicationConf",
+          "value": "{\"conf\":\"http://gateway01.ithred.net/api/\",\"env\":\"prod\",\"platform\":\"app\"}"
+        }
+      ]
+    },
+    {
+      "origin": "http://app.ithred.net",
+      "localStorage": [
+        {
+          "name": "applicationConf",
+          "value": "{\"conf\":\"http://gateway01.ithred.net/api/\",\"env\":\"prod\",\"platform\":\"app\"}"
+        }
+      ]
+    }
+  ]
+}
