@@ -4,7 +4,7 @@ const LoginPage = require('../POM/loginPage');
 const config= require('../config.json')
 
 module.exports = async()=>{
-    const browser= await chromium.launch({headless:false,args:['--incognito'],});
+    const browser= await chromium.launch({headless:false,args:['--incognito','--no-sandbox'],});
     const context = await browser.newContext();
     const page= await context.newPage();
     const loginPage =new LoginPage(page);
