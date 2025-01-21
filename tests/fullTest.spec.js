@@ -13,6 +13,7 @@ test('Add and update PoPriority', async({page})=>
     loginPage= new LoginPage(page);
     const PoPriorityPage= new poPriorityPage(page);
     await loginPage.mnuPoPriority();
+    await page.screenshot({ path: 'screenshots/screenshot.png' });
     await PoPriorityPage.addPo();
     await PoPriorityPage.editPo();
 
