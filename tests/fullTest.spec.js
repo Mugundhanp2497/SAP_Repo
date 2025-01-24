@@ -19,7 +19,7 @@ test('Add and update PoPriority', async({page})=>
 
 })
 
-test('Add and update colorSizeCode', async({page})=>
+test('@sanity Add and update colorSizeCode', async({page})=>
 {
     loginPage= new LoginPage(page);
     const ColorSize= new colorSize(page);

@@ -32,6 +32,10 @@ class colorSizePage
         await this.slt_orderStyle.selectOption('36630 / A8295');
         await this.slt_destination.selectOption('INDIA');
         await this.txt_dcCode.fill('csc123');
+        await this.page.on('dialog', async({dialog}) => {
+            console.log(dialog.message());
+            await dialog.accept();
+        });
         await this.btn_Save.click();
         await this.btn_cancel.click();
         await this.btn_finalConfirm.click();
