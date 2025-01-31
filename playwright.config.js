@@ -19,7 +19,7 @@ module.exports = defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: 5,
   globalSetup:require.resolve("./config/global-setup"),
   timeout: 90000, // Timeout for each test in milliseconds
   expect: {
@@ -56,7 +56,10 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
         storageState:'user.json',
-        headless: false, },
+        headless: false, 
+        workers: 4, 
+      },
+        
     },
 
     // {

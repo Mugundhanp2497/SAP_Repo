@@ -24,7 +24,7 @@ class colorSizePage
 
 
     }
-    async addColorSize()
+    async addColorSize(page)
     {
         await this.btn_addColorSizeCode.click();
         await this.slt_unit.selectOption('D15-2');
@@ -37,6 +37,7 @@ class colorSizePage
             await dialog.accept();
         });
         await this.btn_Save.click();
+        await page.screenshot({path: 'screenshots/screenshot2.png'});
         await this.btn_cancel.click();
         await this.btn_finalConfirm.click();
     }
