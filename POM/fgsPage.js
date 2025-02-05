@@ -14,12 +14,13 @@ class fgsPage
     {
         await this.mnu_Fgs.click();
     }
-    async ScanGar(page)
+    async ScanGar(page,priceTag)
     {
-        await this.txt_barcodeId.fill('1234');
+        await this.txt_barcodeId.fill(priceTag);
         await this.page.keyboard.press('Enter');
         await this.btn_proceed.click();
-        await this.txt_barcodeId.fill('1234');
+        await page.screenshot({path: 'screenshots/fgsScan.png'});
+        await this.txt_barcodeId.fill(priceTag);
         await this.page.keyboard.press('Enter');
         await this.btn_remove.click();
         await this.lnk_TUR.click();

@@ -37,38 +37,40 @@ class packDimensionPage
         await this.mnu_packDimension.click();
     }
 
-    async addPackDimension()
+    async addPackDimension(page,unit,buyerDiv,orderNo,packType,weightUom,dimensionUom,length,width,height,thickness,weight,maxWeight)
     {
         await this.btn_addPack.click();
-        await this.slt_unit.selectOption('D15-2');
-        await this.slt_buyerDiv.selectOption('GAPMT');
-        await this.slt_orderNo.selectOption('39360 / 543204-D18282 HO24');
-        await this.slt_type.selectOption('Carton');
-        await this.slt_weightUom.selectOption('KGS');
-        await this.slt_dimensionUom.selectOption('CM');
-        await this.txt_length.fill('12');
-        await this.txt_width.fill('13');
-        await this.txt_height.fill('14');
-        await this.txt_thickness.fill('15');
-        await this.txt_weight.fill('16');
-        await this.txt_maxWeightPerPack.fill('17');
+        await this.slt_unit.selectOption(unit);
+        await this.slt_buyerDiv.selectOption(buyerDiv);
+        await this.slt_orderNo.selectOption(orderNo);
+        await this.slt_type.selectOption(packType);
+        await this.slt_weightUom.selectOption(weightUom);
+        await this.slt_dimensionUom.selectOption(dimensionUom);
+        await this.txt_length.fill(length);
+        await this.txt_width.fill(width);
+        await this.txt_height.fill(height);
+        await this.txt_thickness.fill(thickness);
+        await this.txt_weight.fill(weight);
+        await this.txt_maxWeightPerPack.fill(maxWeight);
         await this.btn_add.click();
         await this.btn_save.click();
-        await this.btn_finalConfirm.click();
+        //await this.btn_finalConfirm.click();
+        await page.screenshot({path: 'screenshots/packdimensionSave.png'});
     }
-    async updatePackDimension()
+    async updatePackDimension(page,optName,ratiopcs)
     {
         await this.btn_edit.click();
         await this.btn_view.click();
         await this.btn_addSizeDetails.click();
-        await this.txt_optionName.fill('test');
+        await this.txt_optionName.fill(optName);
         await this.slt_garSize.selectOption('M');
-        await this.txt_ratioPcs.fill('2');
+        await this.txt_ratioPcs.fill(ratiopcs);
         await this.btn_split.click();
         await this.slt_garSize2.selectOption('S');
         await this.btn_sizeDetailsSave.click();
         await this.btn_update.click();
         await this.btn_finalConfirm.click();
+        await page.screenshot({path: 'screenshots/packdimensionSave.png'});
     }
 }
 module.exports=packDimensionPage;

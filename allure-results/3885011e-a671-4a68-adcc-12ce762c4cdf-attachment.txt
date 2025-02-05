@@ -1,0 +1,18 @@
+Promise {
+  'D15-2',
+  [Symbol(async_id_symbol)]: 4876,
+  [Symbol(trigger_async_id_symbol)]: 0,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  'GAPMT',
+  [Symbol(async_id_symbol)]: 4882,
+  [Symbol(trigger_async_id_symbol)]: 0,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  '39360 / 543204-D18282 HO24',
+  [Symbol(async_id_symbol)]: 4888,
+  [Symbol(trigger_async_id_symbol)]: 0,
+  [Symbol(kResourceStore)]: undefined
+}

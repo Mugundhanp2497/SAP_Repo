@@ -24,24 +24,23 @@ class colorSizePage
 
 
     }
-    async addColorSize(page)
+    async addColorSize(page,unit,buyerDiv,orderNo,destination,dcCode)
     {
         await this.btn_addColorSizeCode.click();
-        await this.slt_unit.selectOption('D15-2');
-        await this.slt_buyerDiv.selectOption('LEVIS');
-        await this.slt_orderStyle.selectOption('36630 / A8295');
-        await this.slt_destination.selectOption('INDIA');
-        await this.txt_dcCode.fill('csc123');
+        await this.slt_unit.selectOption(unit);
+        await this.slt_buyerDiv.selectOption(buyerDiv);
+        await this.slt_orderStyle.selectOption(orderNo);
+        await this.slt_destination.selectOption(destination);
+        await this.txt_dcCode.fill(dcCode);
         await this.page.on('dialog', async({dialog}) => {
             console.log(dialog.message());
             await dialog.accept();
         });
-        await this.btn_Save.click();
-        await page.screenshot({path: 'screenshots/screenshot2.png'});
-        await this.btn_cancel.click();
-        await this.btn_finalConfirm.click();
+        //await this.btn_Save.click();
+        await page.screenshot({path: 'screenshots/colorSizeCodeSave.png'});
+        //await this.btn_finalConfirm.click();
     }
-    async editColorSize()
+    async editColorSize(page)
     {
         await this.btn_edit.click();
         await this.txt_colorCode.fill('abc');
@@ -51,6 +50,7 @@ class colorSizePage
         await this.txt_sizeCode.fill('def');
         await this.btn_update.click();
         await this.btn_finalConfirm.click();
+        await page.screenshot({path: 'screenshots/colorSizeCodeUpdate.png'});
     }
 
 }

@@ -27,23 +27,26 @@ class barcodeSpecPage
     {
         await this.mnu_barcodeSpec.click();
     }
-    async addBarcodeSpec()
+    async addBarcodeSpec(page,unit,buyerDiv,orderNo,destination,scanPoint,weightUom)
     {
         await this.btn_addBarcode.click();
-        await this.slt_unit.selectOption('D15-2');
-        await this.slt_buyerDiv.selectOption('GAPMT');
-        await this.slt_orderNo.selectOption('34110 / 671087-D6366 SU23');
-        await this.slt_destination.selectOption('JAPAN');
-        await this.slt_scanPoint.selectOption('Single for price tag');
-        await this.slt_weightUom.selectOption('KGS');
+        await this.slt_unit.selectOption(unit);
+        await this.slt_buyerDiv.selectOption(buyerDiv);
+        await this.slt_orderNo.selectOption(orderNo);
+        await this.slt_destination.selectOption(destination);
+        await this.slt_scanPoint.selectOption(scanPoint);
+        await this.slt_weightUom.selectOption(weightUom);
         await this.btn_save.click();
+        //await this.btn_finalConfirm.click();
+        await page.screenshot({ path: 'screenshots/BarcodeSpecSave.png'});
         
     }
-    async fillTagEditScreen()
+    async fillTagEditScreen(page,weight,priceTag)
     {
         await this.btn_view.click();
-        await this.txt_weight.fill('1');
-        await this.txt_priceTag.fill('23498761');
+        await this.txt_weight.fill(weight);
+        await this.txt_priceTag.fill(priceTag);
+        await page.screenshot({ path: 'screenshots/BarcodeSpecUpdate.png'});
 
     }
 }

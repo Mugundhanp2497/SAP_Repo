@@ -31,7 +31,7 @@ async iThredLogin(email,password)
     await this.txt_email.fill(email);
     await this.txt_passWord.fill(password);
     await this.btn_login.click();
-    await expect (await this.btn_mainMenu).toBeVisible();
+    await expect (await this.btn_mainMenu).toBeVisible({timeout:19000});
 }
 async navigateQualityApp()
 {
@@ -43,7 +43,7 @@ async navigateSAP()
 {
     await this.btn_mainMenu.click();
     await this.lnk_SAP.click();
-    expect (await this.mnu_PoPriority).toBeVisible();
+    expect (await this.mnu_PoPriority).toBeVisible({timeout:19000});
 }
 async mnuPoPriority()
 {

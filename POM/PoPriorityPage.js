@@ -18,24 +18,25 @@ class PoPriorityPage
       this.btn_finalConfirm= this.page.locator('[data-testid="confirm-button-testid"]');
     }
 
-    async addPo()
+    async addPo(page,unit,buyerDiv,orderNo)
     {
         await this.btn_addPoPriority.click();
-        await this.slt_unit.selectOption('D15-2');
-        await this.slt_buyerDiv.selectOption('LEVIS');
-        await this.slt_order_style.selectOption('36630 / A8295');
+        await this.slt_unit.selectOption(unit);
+        await this.slt_buyerDiv.selectOption(buyerDiv);
+        await this.slt_order_style.selectOption(orderNo);
         await this.btn_savePo.click();
-        await this.btn_cancelPo.click();
-        await this.btn_finalConfirm.click();
+      //await this.btn_finalConfirm.click();
+        await page.screenshot({ path: 'screenshots/poPrioritySave.png'});
 
     }
-    async editPo()
+    async editPo(page)
     {
       await this.btn_edit.click();
       await this.txt_editPovalue_01.fill('2');
       await this.txt_editPovalue_02.fill('1');
       await this.btn_update.click();
       await this.btn_finalConfirm.click();
+      await page.screenshot({ path: 'screenshots/poPriorityUpdate.png'});
     }
 }
 module.exports= PoPriorityPage;

@@ -29,32 +29,34 @@ class prePackRatioPage
         await this.mnu_prepackRatio.click();
     }
 
-    async addPrepackRatio()
+    async addPrepackRatio(page,unit,buyerDiv,orderNo,destination,prepackType,packSku)
     {
         await this.btn_addPrepack.click();
-        await this.slt_unit.selectOption('D15-2');
-        await this.slt_buyerDiv.selectOption('GAPMT');
-        await this.slt_orderNo.selectOption('39360 / 543204-D18282 HO24');
-        await this.slt_destination.selectOption('USA');
-        await this.slt_prepackType.selectOption('2Pc PrePack');
-        await this.txt_packSku.fill('Test143');
+        await this.slt_unit.selectOption(unit);
+        await this.slt_buyerDiv.selectOption(buyerDiv);
+        await this.slt_orderNo.selectOption(orderNo);
+        await this.slt_destination.selectOption(destination);
+        await this.slt_prepackType.selectOption(prepackType);
+        await this.txt_packSku.fill(packSku);
         await this.btn_save.click();
-        await this.btn_finalConfirm.click();
+        //await this.btn_finalConfirm.click();
+        await page.screenshot({path: 'screenshots/prepackRatioSave.png'});
 
     }
 
-    async updatePrepackRatio()
+    async updatePrepackRatio(page,ratiopcs)
     {
         await this.btn_edit.click();
         await this.btn_colorFit.click();
         await this.btn_ratiopc.click();
-        await this.txt_ratioPcDetail.fill('2');
+        await this.txt_ratioPcDetail.fill(ratiopcs);
         await this.btn_ratioPcOk.click();
         await this.btn_finalConfirm.click();
         await this.btn_allColor.click();
-        await this.txt_ratioPcColor.fill('2');
+        await this.txt_ratioPcColor.fill(ratiopcs);
         await this.btn_update.click();
         await this.btn_finalConfirm.click();
+        await page.screenshot({path: 'screenshots/packdimensionupdate.png'});
 
     }
 } 

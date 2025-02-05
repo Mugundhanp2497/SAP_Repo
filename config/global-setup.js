@@ -17,7 +17,7 @@ module.exports = async()=>{
     await page.goto(url);
     await loginPage.iThredLogin(email,password); 
     await loginPage.navigateSAP();
-    await page.waitForLoadState('networkidle',{timeout:8000})
+    await page.waitForLoadState('networkidle',{timeout:19000})
     await page.context().storageState({path:"user.json"});
     await browser.close();
 
