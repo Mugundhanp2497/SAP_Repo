@@ -47,7 +47,7 @@ async navigateSAP()
 }
 async mnuPoPriority()
 {
-    await this.mnu_PoPriority.click();
+    await this.mnu_PoPriority.waitFor({ state: 'visible', timeout: 30000 }).click();
 }
 async mnucolorSizeCode()
 {

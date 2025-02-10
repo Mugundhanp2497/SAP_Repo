@@ -24,6 +24,7 @@ test(`Add and update PoPriority`, async({page})=>
     loginPage= new LoginPage(page);
     const PoPriorityPage= new poPriorityPage(page);
     await loginPage.mnuPoPriority();
+    page.pause();  
     await page.screenshot({ path: 'screenshots/navPoPriority.png' });
     await PoPriorityPage.addPo(page,unit,buyerDiv,orderNo);
     await PoPriorityPage.editPo(page);
@@ -31,7 +32,7 @@ test(`Add and update PoPriority`, async({page})=>
 
 })
 
-test.only('And and update barcodespec',async({page})=>
+test('And and update barcodespec',async({page})=>
     {
         let unit= await readExcelData(2,1);
         let buyerDiv= await readExcelData(2,2);
