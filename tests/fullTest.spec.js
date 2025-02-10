@@ -7,7 +7,7 @@ const packDimensionPage =require('../POM/packDimensionPage');
 const prePackRatioPage= require('../POM/prePackRatioPage');
 const fgsPage= require('../POM/fgsPage');
 import {WriteExcelData} from '../utils/writeExcel'
-import { readExcelData} from '../utils/excelReader';
+import {readExcelData} from '../utils/excelReader';
 
 test.beforeEach('launch URL',async({page})=>
 {
@@ -31,7 +31,7 @@ test(`Add and update PoPriority`, async({page})=>
 
 })
 
-test('And and update barcodespec',async({page})=>
+test.only('And and update barcodespec',async({page})=>
     {
         let unit= await readExcelData(2,1);
         let buyerDiv= await readExcelData(2,2);

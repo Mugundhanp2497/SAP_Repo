@@ -35,6 +35,7 @@ module.exports = defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
    
     video: 'on',
+    colorScheme: 'dark',
     timezoneId: 'Europe/London',
     trace: 'on',
     storageState:'user.json',

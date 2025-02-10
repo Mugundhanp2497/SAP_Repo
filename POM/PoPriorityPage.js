@@ -25,13 +25,12 @@ class PoPriorityPage
         await this.slt_buyerDiv.selectOption(buyerDiv);
         await this.slt_order_style.selectOption(orderNo);
         await this.btn_savePo.click();
-      //await this.btn_finalConfirm.click();
         await page.screenshot({ path: 'screenshots/poPrioritySave.png'});
 
     }
     async editPo(page)
     {
-      await this.btn_edit.click();
+      //await this.btn_edit.click();
       await this.txt_editPovalue_01.fill('2');
       await this.txt_editPovalue_02.fill('1');
       await this.btn_update.click();
